@@ -1,0 +1,7 @@
+[
+{"title":"Lobby","isOfficial":true,"autojoin":true,"logTimes":true,"autoTruncate":true,"reportJoins":true,"batchJoins":0},
+{"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true,"logTimes":true,"autoTruncate":true,"reportJoins":true,"batchJoins":0},
+{"title":"YouBanistan","logTimes":true,"autoTruncate":true,"reportJoins":true,"batchJoins":0,"isPrivate":"hidden","staffRoom":true,"addedUsers":{}},
+{"title":"Development","logTimes":true,"autoTruncate":true,"reportJoins":true,"batchJoins":0,"isPrivate":"hidden","modjoin":"~"},
+{"title":"Temporal Tower","logTimes":true,"autoTruncate":true,"reportJoins":true,"batchJoins":0,"auth":{"roughskull":"#"},"founder":"roughskull"}
+]

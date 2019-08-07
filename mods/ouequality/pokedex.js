@@ -10612,7 +10612,7 @@ let BattlePokedex = {
 		heightm: 0.4,
 		weightkg: 5,
 		color: "Brown",
-		evos: ["\"],
+		evos: ["diggersby"],
 		eggGroups: ["Field"],
 	},
 	diggersby: {

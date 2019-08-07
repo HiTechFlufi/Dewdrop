@@ -689,7 +689,7 @@ let BattlePokedex = {
 		species: "Raichu",
 		types: ["Electric"],
 		baseStats: {hp: 60, atk: 90, def: 55, spa: 90, spd: 80, spe: 100},
-		abilities: {0: "Static", H: "Adaptability"},
+		abilities: {0: "Static", H: "Lightning Rod"},
 		heightm: 0.8,
 		weightkg: 30,
 		color: "Yellow",

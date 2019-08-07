@@ -497,9 +497,9 @@ let Formats = [
 	},
 
 	///////////////////////////////////////////////////////
-	// Wavelength Metagames
+	// Dewdrop Metagames
 	{
-		section: 'Wavelength Metagames',
+		section: 'Dewdrop Metagames',
 		column: 2,
 	},
 	// Conflicts with main's version
@@ -876,26 +876,14 @@ let Formats = [
 		ruleset: ['[Gen 7] OU'],
 	},
 	{
-		name: "[Gen 7] LU",
-		desc: ["The new tiering format that nobody wanted! This format is much more chaotic compared to OU and will be tiered differently. Ran by SSBN-640."],
-		column: 2,
-
-		mod: 'lu',
-		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
-		banlist: ['Arceus', 'Deoxys-Base', 'Deoxys-Attack', 'Dialga', 'Gengar-Mega', 'Giratina', 'Gothitelle', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-White', 'Lucario-Mega', 'Lunala', 'Mewtwo', 'Necrozma-Dusk-Mane', 'Necrozma-Ultra', 'Palkia', 'Rayquaza', 'Reshiram', 'Salamence-Mega', 'Shaymin-Sky', 'Xerneas', 'Yveltal', 'Zekrom', 'Power Construct'],
-	},
-	{
-		name: "[Gen 7] TsuMeta (BETA)",
+		name: "[Gen 7] OU Equality",
 		desc: [
-			"&bullet; <a href=\"http://tsunamips.weebly.com/tsumeta.html\">TsuMeta Information</a>",
+			"Alternate-reality USM OU where BL Pokemon actually matter.",
 		],
 		column: 2,
 
-		mod: 'tsumeta',
+		mod: 'ouequality',
 		ruleset: ['[Gen 7] OU'],
-		onSwitchIn: function (pokemon) {
-			this.add('-start', pokemon, 'typechange', pokemon.types[0] + (pokemon.types[1] ? '/' + pokemon.types[1] : ''));
-		},
 	},
 	// Other Metagames
 	///////////////////////////////////////////////////////////////////

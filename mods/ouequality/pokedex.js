@@ -4650,7 +4650,7 @@ let BattlePokedex = {
 		formeLetter: "M",
 		types: ["Psychic", "Fairy"],
 		baseStats: {hp: 68, atk: 85, def: 75, spa: 165, spd: 135, spe: 110},
-		abilities: {0: "Pixilate"},
+		abilities: {0: "Psychic Surge"},
 		heightm: 1.6,
 		weightkg: 48.4,
 		color: "White",

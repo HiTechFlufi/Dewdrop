@@ -876,6 +876,15 @@ let Formats = [
 		ruleset: ['[Gen 7] OU'],
 	},
 	{
+		name: "[Gen 7] Z-Frenzy",
+		desc: [
+			"Z-Moves obtained by the crystal your Pokemon is carrying can be used multiple times.",
+		],
+
+		mod: 'zfrenzy',
+		ruleset: ['[Gen 7] OU'],
+	},
+	{
 		name: "[Gen 7] OU Equality",
 		desc: [
 			"Alternate-reality USM OU where BL Pokemon actually matter.",
